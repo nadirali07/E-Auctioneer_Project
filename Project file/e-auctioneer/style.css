@@ -1,0 +1,26 @@
+.product:hover{
+	
+	background-color: #f5b22d;
+	color: white;
+	cursor: pointer;
+}
+.hero{
+	background-image: url('images/hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pimg{
+	height: 180px;
+	width: 254px;
+	object-fit: contain;
+	display: block;
+}
+
+.view_img{
+	height: 400px;
+	width: 500px;
+	object-fit: contain;
+	display: block;
+}
+
+
