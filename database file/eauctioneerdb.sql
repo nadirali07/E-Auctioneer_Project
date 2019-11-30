@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 30, 2019 at 01:16 PM
+-- Generation Time: Nov 30, 2019 at 04:59 PM
 -- Server version: 10.3.15-MariaDB
 -- PHP Version: 7.3.6
 
@@ -57,9 +57,7 @@ INSERT INTO `bidding` (`bno`, `busername`, `pid`, `pname`, `bprice`, `bdate`, `b
 (72, 'uzair_1998', 25, ' La Mer Soft Cream', 80, '2019-11-16 19:54:45', 'talha_1998'),
 (73, 'uzair_1998', 28, 'Dailylux Case for iPhone', 200, '2019-11-16 19:54:59', 'hassan_1998'),
 (74, 'usama_1998', 24, 'BMW X5 X5', 7000, '2019-11-17 08:37:21', 'talha_1998'),
-(75, 'hassan_1998', 33, 'honda 125', 500, '2019-11-24 07:43:01', 'abc_123'),
-(76, 'abc_123', 32, 'Baebody Eye Gel', 80, '2019-11-24 07:44:15', 'hassan_1998'),
-(77, 'abc_123', 31, 'TACKLIFE Garden Tools', 600, '2019-11-24 09:59:36', 'talha_1998');
+(75, 'hassan_1998', 33, 'honda 125', 500, '2019-11-24 07:43:01', 'abc_123');
 
 -- --------------------------------------------------------
 
@@ -81,9 +79,7 @@ CREATE TABLE `feedback` (
 INSERT INTO `feedback` (`feed_id`, `username`, `feedback`, `date`) VALUES
 (6, 'talha_1998', 'I would give Fivestars if I could. I won an item when the auction ended and then suddenly 24 hours was added back onto the timer. Thank You E-Auctioneer', '2019-11-17 00:00:00'),
 (8, 'uzair_1998', 'I sent one email and within 5 minutes I received the discount, I never had service like that. ', '2019-11-17 00:00:00'),
-(9, 'hassan_1998', 'Amazing customer service! My first win I had won a ring, i guess their system was having difficulty at the time so I emailed customer service and they were nice enough to help me', '2019-11-17 00:00:00'),
-(10, 'usama_1998', 'good auctioner website', '2019-11-17 00:00:00'),
-(12, 'abc_123', 'good work\r\n', '2019-11-24 14:03:15');
+(9, 'hassan_1998', 'Amazing customer service! My first win I had won a ring, i guess their system was having difficulty at the time so I emailed customer service and they were nice enough to help me', '2019-11-17 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -106,7 +102,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`pid`, `pname`, `pdes`, `pcat`, `pdate`, `pimg`, `uname`) VALUES
-(24, 'BMW X5 X5', '2018 reg, 11175 miles, Auto 2993cc Diesel, 5 door SUV, White. This beautiful white X5 is fully specced and comes with Comfort Access ', 'Automated Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/AETV10811456_1b.jpg', 'talha_1998'),
+(24, 'BMW X5 X5', '2018 reg, 11175 miles, Auto 2993cc Diesel, 5 door SUV, White. This beautiful white X5 is fully specced and comes with Comfort Access ', 'Automated Products', '2019-11-17 00:00:00', 'images/AETV10811456_1b.jpg', 'talha_1998'),
 (25, ' La Mer Soft Cream', 'I challenge you to find a product line more full of secrecy and bizarre rumors! It was started by rocket scientist Max Huber, who used astrology to create  ', 'Beauty Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/La_Mer.png', 'talha_1998'),
 (26, 'Spindle Back Chairs', 'Solid wood construction\r\nIncludes two chairs\r\nBlack finish\r\nPair of spindle Back chairs from the new Grange collection\r\nTheir spindle Back detailing gives them a Classic appeal ', 'House Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/81n-e-Di8WL._SL1500_.jpg', 'talha_1998'),
 (27, 'BodyGuardz Ace Case', 'UNEQUAL IMPACT-ABSORBING TECHNOLOGY: Ace Pro cases harness the same impact-prevention technology used by professional athletes to protect against injury. Made with Kevlar and Accelleron, this â€œshear thickeningâ€ material absorbs the impact of a drop. ', 'Tech Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/41MT5cNRbLL._SL1020_.jpg', 'talha_1998'),
@@ -114,8 +110,7 @@ INSERT INTO `products` (`pid`, `pname`, `pdes`, `pcat`, `pdate`, `pimg`, `uname`
 (29, 'Viking Beard Oil', 'TAME YOUR BEARD: Even the burliest of beards can be controlled with our organic beard oil conditioner. Restore softness and shine for a smooth and frizz-free beard or mustache in seconds.\r\nNO ITCHING OR SCRATCHING: Get rid of the dreaded beardruff! Add a few drops of beard oil treatment and your beard will feel excellent as well as look great all day long! ', 'Beauty Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/410Z-Q3f7YL.jpg', 'uzair_1998'),
 (30, 'Automatic Soap Dispenser', 'Water Resistant Battery operated automatic soap dispenser with 17 oz. capacity container.\r\nOn/Off switch and adjustable soap dispenser volume control switch, from 0.03~0.19 oz. per activation ', 'Automated Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/814v0LYlM2L._SL1500_.jpg', 'hassan_1998'),
 (31, 'TACKLIFE Garden Tools', 'Heavy duty stainless Steel - Tacklife gardening tools is Made of heavy duty stainless Steel, The tool is strong and durable, with a high hardness and no need to worry about rusting and breaking ', 'Others', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/71vXJBdcNNL._SL1500_.jpg', 'talha_1998'),
-(32, 'Baebody Eye Gel', 'MORNING & NIGHT EYE GEL: This eye gel helps reduce the appearance of puffiness, dark circles, under eye bags & wrinkles! No more heavy creams, this lightweight gel is the perfect product to awaken your eyes! ', 'Beauty Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/71i-3AIeXcL._SL1500_.jpg', 'hassan_1998'),
-(33, 'honda 125', 'asdsads ', 'Others', '2019-11-24 12:40:26', 'http://localhost:8080/e-auctioneer/images/5c5d883b628626bb08cca4d333995f87ee94ae89.jfif', 'abc_123');
+(32, 'Baebody Eye Gel', 'MORNING & NIGHT EYE GEL: This eye gel helps reduce the appearance of puffiness, dark circles, under eye bags & wrinkles! No more heavy creams, this lightweight gel is the perfect product to awaken your eyes! ', 'Beauty Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/71i-3AIeXcL._SL1500_.jpg', 'hassan_1998');
 
 -- --------------------------------------------------------
 
@@ -142,10 +137,7 @@ CREATE TABLE `user-register` (
 INSERT INTO `user-register` (`id`, `fname`, `lname`, `email`, `username`, `password`, `cname`, `address`, `image`) VALUES
 (18, 'Talha', 'khan', 'imtalha@gmail.com', 'talha_1998', 'admin', 'Graphic Team Designer', '81 East Ketch Harbour Court\r\nSaint Albans, NY 11412', 'http://localhost:8080/e-auctioneer/images/Styling_0004_Styling.jpg'),
 (20, 'Hassan', 'khan', 'imhassan@gmail.com', 'hassan_1998', 'admin', 'Game Development', '19 Westminster Road\r\nGreat Falls, MT 59404', 'http://localhost:8080/e-auctioneer/images/headshot_new.jpg'),
-(21, 'Uzair ', 'khan', 'imuzair@gmail.com', 'uzair_1998', 'admin', 'Android team ', '19 Westminster Road\r\nGreat Falls, MT 59404', 'http://localhost:8080/e-auctioneer/images/Henry_Cao-Web.jpg'),
-(22, 'usama', 'khan', 'usama@gmail.com', 'usama_1998', 'admin', 'desiner house', 'asfsfdfd', 'http://localhost:8080/e-auctioneer/images/Dollarphotoclub_49104710-1400x963.jpg'),
-(23, 'usama', 'khan', 'nadi@gmil.com', 'abc12', '123', '', 'abc', 'http://localhost:8080/e-auctioneer/images/'),
-(24, 'usama', 'khan', 'abc@abc.com', 'abc_123', '12', 'asasd', 'asdsfs', 'http://localhost:8080/e-auctioneer/images/5c5d883b628626bb08cca4d333995f87ee94ae89.jfif');
+(21, 'Uzair ', 'khan', 'imuzair@gmail.com', 'uzair_1998', 'admin', 'Android team ', '19 Westminster Road\r\nGreat Falls, MT 59404', 'http://localhost:8080/e-auctioneer/images/Henry_Cao-Web.jpg');
 
 --
 -- Indexes for dumped tables
@@ -198,7 +190,7 @@ ALTER TABLE `feedback`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT for table `user-register`

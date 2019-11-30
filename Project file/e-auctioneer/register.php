@@ -183,7 +183,7 @@
         $rr=$_FILES["image"]["tmp_name"];
         $upload_directory="images/".$image;
         $path=move_uploaded_file($rr, $upload_directory);
-        $finalpath="http://localhost:8080/e-auctioneer/".$upload_directory;
+        $finalpath=$upload_directory;
         if ($password==$cpassword) {
 
           

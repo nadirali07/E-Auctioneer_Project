@@ -187,7 +187,7 @@ if(isset($_POST['psubmit'])){
   $rr=$_FILES["pimg"]["tmp_name"];
   $upload_directory="images/".$pimg;
   $path=move_uploaded_file($rr, $upload_directory);
-  $finalpath="http://localhost:8080/e-auctioneer/".$upload_directory;
+  $finalpath=$upload_directory;
   if ($pimg==NULL) {
     echo "<script type='text/javascript'>alert('Please attach Product image');</script>";
 
