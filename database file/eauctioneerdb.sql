@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 30, 2019 at 04:59 PM
+-- Generation Time: Nov 30, 2019 at 07:29 PM
 -- Server version: 10.3.15-MariaDB
 -- PHP Version: 7.3.6
 
@@ -103,14 +103,14 @@ CREATE TABLE `products` (
 
 INSERT INTO `products` (`pid`, `pname`, `pdes`, `pcat`, `pdate`, `pimg`, `uname`) VALUES
 (24, 'BMW X5 X5', '2018 reg, 11175 miles, Auto 2993cc Diesel, 5 door SUV, White. This beautiful white X5 is fully specced and comes with Comfort Access ', 'Automated Products', '2019-11-17 00:00:00', 'images/AETV10811456_1b.jpg', 'talha_1998'),
-(25, ' La Mer Soft Cream', 'I challenge you to find a product line more full of secrecy and bizarre rumors! It was started by rocket scientist Max Huber, who used astrology to create  ', 'Beauty Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/La_Mer.png', 'talha_1998'),
-(26, 'Spindle Back Chairs', 'Solid wood construction\r\nIncludes two chairs\r\nBlack finish\r\nPair of spindle Back chairs from the new Grange collection\r\nTheir spindle Back detailing gives them a Classic appeal ', 'House Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/81n-e-Di8WL._SL1500_.jpg', 'talha_1998'),
-(27, 'BodyGuardz Ace Case', 'UNEQUAL IMPACT-ABSORBING TECHNOLOGY: Ace Pro cases harness the same impact-prevention technology used by professional athletes to protect against injury. Made with Kevlar and Accelleron, this â€œshear thickeningâ€ material absorbs the impact of a drop. ', 'Tech Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/41MT5cNRbLL._SL1020_.jpg', 'talha_1998'),
-(28, 'Dailylux Case for iPhone', 'Compatible with Apple iPhone 11 Pro Max 6.5 inch Case (2019 Release),NOT COMPATIBLE other iPhone Model\r\niPhone 11 Pro Max Case Safty: Raised bevel eage prevents camera and screen from being scratches, drops and stumbles in daily use. ', 'Tech Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/A14DXquhuIL._SL1500_.jpg', 'hassan_1998'),
-(29, 'Viking Beard Oil', 'TAME YOUR BEARD: Even the burliest of beards can be controlled with our organic beard oil conditioner. Restore softness and shine for a smooth and frizz-free beard or mustache in seconds.\r\nNO ITCHING OR SCRATCHING: Get rid of the dreaded beardruff! Add a few drops of beard oil treatment and your beard will feel excellent as well as look great all day long! ', 'Beauty Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/410Z-Q3f7YL.jpg', 'uzair_1998'),
-(30, 'Automatic Soap Dispenser', 'Water Resistant Battery operated automatic soap dispenser with 17 oz. capacity container.\r\nOn/Off switch and adjustable soap dispenser volume control switch, from 0.03~0.19 oz. per activation ', 'Automated Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/814v0LYlM2L._SL1500_.jpg', 'hassan_1998'),
-(31, 'TACKLIFE Garden Tools', 'Heavy duty stainless Steel - Tacklife gardening tools is Made of heavy duty stainless Steel, The tool is strong and durable, with a high hardness and no need to worry about rusting and breaking ', 'Others', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/71vXJBdcNNL._SL1500_.jpg', 'talha_1998'),
-(32, 'Baebody Eye Gel', 'MORNING & NIGHT EYE GEL: This eye gel helps reduce the appearance of puffiness, dark circles, under eye bags & wrinkles! No more heavy creams, this lightweight gel is the perfect product to awaken your eyes! ', 'Beauty Products', '2019-11-17 00:00:00', 'http://localhost:8080/e-auctioneer/images/71i-3AIeXcL._SL1500_.jpg', 'hassan_1998');
+(25, ' La Mer Soft Cream', 'I challenge you to find a product line more full of secrecy and bizarre rumors! It was started by rocket scientist Max Huber, who used astrology to create  ', 'Beauty Products', '2019-11-17 00:00:00', 'images/La_Mer.png', 'talha_1998'),
+(26, 'Spindle Back Chairs', 'Solid wood construction\r\nIncludes two chairs\r\nBlack finish\r\nPair of spindle Back chairs from the new Grange collection\r\nTheir spindle Back detailing gives them a Classic appeal ', 'House Products', '2019-11-17 00:00:00', 'images/81n-e-Di8WL._SL1500_.jpg', 'talha_1998'),
+(27, 'BodyGuardz Ace Case', 'UNEQUAL IMPACT-ABSORBING TECHNOLOGY: Ace Pro cases harness the same impact-prevention technology used by professional athletes to protect against injury. Made with Kevlar and Accelleron, this â€œshear thickeningâ€ material absorbs the impact of a drop. ', 'Tech Products', '2019-11-17 00:00:00', 'images/41MT5cNRbLL._SL1020_.jpg', 'talha_1998'),
+(28, 'Dailylux Case for iPhone', 'Compatible with Apple iPhone 11 Pro Max 6.5 inch Case (2019 Release),NOT COMPATIBLE other iPhone Model\r\niPhone 11 Pro Max Case Safty: Raised bevel eage prevents camera and screen from being scratches, drops and stumbles in daily use. ', 'Tech Products', '2019-11-17 00:00:00', 'images/A14DXquhuIL._SL1500_.jpg', 'hassan_1998'),
+(29, 'Viking Beard Oil', 'TAME YOUR BEARD: Even the burliest of beards can be controlled with our organic beard oil conditioner. Restore softness and shine for a smooth and frizz-free beard or mustache in seconds.\r\nNO ITCHING OR SCRATCHING: Get rid of the dreaded beardruff! Add a few drops of beard oil treatment and your beard will feel excellent as well as look great all day long! ', 'Beauty Products', '2019-11-17 00:00:00', 'images/410Z-Q3f7YL.jpg', 'uzair_1998'),
+(30, 'Automatic Soap Dispenser', 'Water Resistant Battery operated automatic soap dispenser with 17 oz. capacity container.\r\nOn/Off switch and adjustable soap dispenser volume control switch, from 0.03~0.19 oz. per activation ', 'Automated Products', '2019-11-17 00:00:00', 'images/814v0LYlM2L._SL1500_.jpg', 'hassan_1998'),
+(31, 'TACKLIFE Garden Tools', 'Heavy duty stainless Steel - Tacklife gardening tools is Made of heavy duty stainless Steel, The tool is strong and durable, with a high hardness and no need to worry about rusting and breaking ', 'Others', '2019-11-17 00:00:00', 'images/71vXJBdcNNL._SL1500_.jpg', 'talha_1998'),
+(32, 'Baebody Eye Gel', 'MORNING & NIGHT EYE GEL: This eye gel helps reduce the appearance of puffiness, dark circles, under eye bags & wrinkles! No more heavy creams, this lightweight gel is the perfect product to awaken your eyes! ', 'Beauty Products', '2019-11-17 00:00:00', 'images/71i-3AIeXcL._SL1500_.jpg', 'hassan_1998');
 
 -- --------------------------------------------------------
 
@@ -135,9 +135,9 @@ CREATE TABLE `user-register` (
 --
 
 INSERT INTO `user-register` (`id`, `fname`, `lname`, `email`, `username`, `password`, `cname`, `address`, `image`) VALUES
-(18, 'Talha', 'khan', 'imtalha@gmail.com', 'talha_1998', 'admin', 'Graphic Team Designer', '81 East Ketch Harbour Court\r\nSaint Albans, NY 11412', 'http://localhost:8080/e-auctioneer/images/Styling_0004_Styling.jpg'),
-(20, 'Hassan', 'khan', 'imhassan@gmail.com', 'hassan_1998', 'admin', 'Game Development', '19 Westminster Road\r\nGreat Falls, MT 59404', 'http://localhost:8080/e-auctioneer/images/headshot_new.jpg'),
-(21, 'Uzair ', 'khan', 'imuzair@gmail.com', 'uzair_1998', 'admin', 'Android team ', '19 Westminster Road\r\nGreat Falls, MT 59404', 'http://localhost:8080/e-auctioneer/images/Henry_Cao-Web.jpg');
+(18, 'Talha', 'khan', 'imtalha@gmail.com', 'talha_1998', 'admin', 'Graphic Team Designer', '81 East Ketch Harbour Court\r\nSaint Albans, NY 11412', 'images/Styling_0004_Styling.jpg'),
+(20, 'Hassan', 'khan', 'imhassan@gmail.com', 'hassan_1998', 'admin', 'Game Development', '19 Westminster Road\r\nGreat Falls, MT 59404', 'images/headshot_new.jpg'),
+(21, 'Uzair ', 'khan', 'imuzair@gmail.com', 'uzair_1998', 'admin', 'Android team ', '19 Westminster Road\r\nGreat Falls, MT 59404', 'images/Henry_Cao-Web.jpg');
 
 --
 -- Indexes for dumped tables
